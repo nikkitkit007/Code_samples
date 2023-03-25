@@ -1,0 +1,3 @@
+For create EXE file on Python without console use this command:
+
+pyinstaller --onefile -w Name_of_file.py
