@@ -1,19 +1,40 @@
-# Python_samples_main
-simple things on python for me
+# Code samples
 
-A lot of different examples of code on Python 3.9+
+## Python
 
-List of samples:
-- Work_with_PostgreSQL
-- Work_with_PyQt5
-- Work_with_bytes_hex_dec
-- Work_with_client
-- Work_with_console
-- Work_with_files
-- Work_with_graphic_Boken
-- Work_with_pattern
-- Work_with_server
-- Work_with_thread
-- Wort_with_crypto
-- Work_with_logging
-- Work_with_numpy_pandas
+### Work with db
+* redis
+* postgres
+* ...
+
+### Work with mq
+* rabbitmq
+* ...
+
+### Work with not synchronous
+* async
+* multiprocessing
+* subprocess
+* thread
+
+### Work with web frameworks
+* flask
+* socket
+* fastapi
+* ...
+
+### Work with gui
+* PyQt5
+* Boken
+* ...
+
+### Other
+* logging
+* pattern
+* cripto
+* exe
+* files
+* numpy & pandas
+* ...
+
+
