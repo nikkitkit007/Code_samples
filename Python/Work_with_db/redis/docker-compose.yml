@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+    server:
+        build: backend
+        command: [ "python", "-u", "server.py" ]
+#        restart: always
+        network_mode: host
+    redis:
+        image: redis:7.0-alpine
+        command: ["redis-server", "--appendonly", "yes"]
+        volumes:
+            - ./data:/data
+        ports:
+            - "6379:6379"
+#        restart: always
