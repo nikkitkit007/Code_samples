@@ -26,7 +26,8 @@
 ### Work with gui
 * PyQt5
 * Boken
-* ...
+* Curses
+* 
 
 ### Other
 * logging
